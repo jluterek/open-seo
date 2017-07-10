@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+.App { text-align: left; }
+.center { text-align: center; }
+.App-body { padding: 15px; }
+.form { margin: 0px auto 30px auto; text-align:center; }
+.form input[type="text"] { width: 600px; max-width: 80%;}
+.logo { text-align:center; padding-top:20px; }
+.App table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+.App td, .App th { border: 1px solid transparent; height: 30px; transition: all 0.3s; }
+.App th { background: #FAFAFA; font-weight: bold; vertical-align: top; }
+.App td { background: #FFFFFF; text-align: left; vertical-align: top; }
+.App td strong { white-space: nowrap; padding-right: 10px; }
+.App tr:hover { background: #FAFAFA; }
+.App tr td:hover { background: #EEEEEE; }  
+.App .panel { margin-bottom: 40px; }
+.erroritem { border: 1px solid #aaaaaa;}
+.erroritem .summary, .erroritem .details { display: inline-block; width:100%; box-sizing: border-box; }
+.erroritem .summary { cursor: pointer; line-height: 25px; padding: 10px; background-color: #cccccc; width:100%; }
+.erroritem .details { display: block; border-top: 2px solid #aaaaaa; padding:15px; }
+.active .summary { border-color: transparent; transition: border-color 0.2s ease-out; }
+.inactive .details { display:none; }
+.active .details { display: inline-block; }
